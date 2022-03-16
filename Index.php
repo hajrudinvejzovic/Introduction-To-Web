@@ -1,7 +1,6 @@
 <?php
 
-echo "First lesson but Heroku doesnt work";
-reuquire "vendor/autoload.php";
+require "vendor/autoload.php";
 Flight::route("/", function(){
   echo "Hello World!";
 });
